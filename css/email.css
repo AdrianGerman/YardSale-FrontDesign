@@ -30,6 +30,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 300px;
+  justify-items: center;
 }
 
 .logo {
@@ -55,25 +56,30 @@ body {
   text-align: center;
 }
 
-.form {
+.email-image {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
-}
-
-.label {
-  font-size: var(--sm);
-  font-weight: bold;
-  margin-bottom: 4px;
-}
-
-.input {
+  justify-content: center;
+  align-items: center;
   background-color: var(--text-input-field1);
-  border: none;
-  border-radius: 8px;
-  height: 30px;
-  font-size: var(--md);
-  padding: 6px;
   margin-bottom: 24px;
+}
+
+.email-image img {
+  width: 80px;
+}
+
+.resend {
+  font-size: var(--sm);
+}
+.resend span {
+  color: var(--very-light-pink);
+}
+.resend a {
+  color: var(--hospital-green);
+  text-decoration: none;
 }
 
 .primary-button {
