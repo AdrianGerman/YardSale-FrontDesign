@@ -12,3 +12,8 @@ body {
   font-family: "Quicksand", sans-serif;
   background-color: var(--font);
 }
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
